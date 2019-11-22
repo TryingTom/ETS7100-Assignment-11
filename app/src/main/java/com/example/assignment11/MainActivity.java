@@ -182,6 +182,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 lista.clear();
+                kuitenkinValittaa.clear();
                 adapteri.notifyDataSetChanged();
             }
         });
